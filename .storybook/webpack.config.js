@@ -2,16 +2,6 @@ const path = require('path');
 
 // Export a function. Accept the base config as the only param.
 module.exports = ({ config, mode }) => {
-
-  /* Support for React Native Web */
-  config.resolve = {
-    modules: ['node_modules'],
-    extensions: ['.web.js', '.js', '.json', '.web.jsx', '.jsx', 'ts', 'tsx'],
-    alias: {
-      'react-native': 'react-native-web',
-    },
-  };
-
   /* PostCSS Support */
   config.module.rules.push({
     test: /\.css$/,
