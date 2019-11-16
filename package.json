@@ -55,6 +55,7 @@
     "react": "^16.12.0",
     "react-docgen-typescript-loader": "^3.4.0",
     "react-dom": "^16.12.0",
+    "storybook-readme": "^5.0.8",
     "ts-loader": "^6.2.1",
     "tsdx": "^0.11.0",
     "tslib": "^1.10.0",
@@ -62,6 +63,7 @@
     "webpack": "^4.41.2"
   },
   "dependencies": {
+    "@storybook/addon-knobs": "^5.2.6",
     "tailwindcss": "^1.1.3"
   }
 }
