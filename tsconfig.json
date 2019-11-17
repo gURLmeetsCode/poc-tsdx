@@ -2,7 +2,9 @@
   "compilerOptions": {
     "outDir": "build/lib",
     "module": "ES2015",
+    "strict": true,
     "target": "es5",
+    "types": ["cypress"],
     "lib": ["es5", "es6", "es7", "es2017", "dom"],
     "sourceMap": true,
     "allowJs": false,
@@ -22,6 +24,6 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "**/*.ts"],
   "exclude": ["node_modules", "build", "scripts"]
 }
